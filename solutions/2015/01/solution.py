@@ -1,8 +1,10 @@
 import sys
 
+
 def main(input: str):
     print(part1(input))
     print(part2(input))
+
 
 def part1(input: str) -> str:
     floor = 0
@@ -24,6 +26,7 @@ def part2(input: str) -> str:
         if floor == -1:
             return str(i)
     raise RuntimeError("did not reach basement")
+
 
 if __name__ == "__main__":
     main(sys.stdin.read())
