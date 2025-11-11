@@ -9,7 +9,6 @@ import util.input
 
 
 def main():
-    print(sys.argv)
     year = int(sys.argv[1])
     day = int(sys.argv[2])
     solutions = solve(year, day)
